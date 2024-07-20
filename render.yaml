@@ -1,0 +1,8 @@
+version: 2
+runtime: docker
+entrypoint: docker-entrypoint.sh
+env:
+  WORDPRESS_DB_HOST: dpg-cqe19s08fa8c73duia4g-a  # Replace with your database service name
+  WORDPRESS_DB_NAME: simpledb_9uxh
+  WORDPRESS_DB_USER: pguser
+  WORDPRESS_DB_PASSWORD: tbgO1HbRY6p3nXTgepa5lsG0aFO4qtDR
